@@ -31,8 +31,8 @@ class MarketDataService:
     """
 
     def __init__(
-        self,
-        provider: BaseMarketDataProvider | None = None,
+            self,
+            provider: BaseMarketDataProvider | None = None,
     ) -> None:
         """
         Initialize the service.
@@ -40,12 +40,9 @@ class MarketDataService:
         Args:
             provider:
                 Optional provider implementation.
-                If omitted, the configured provider is created.
+                If omitted, the default provider is created.
         """
-        self._provider = (
-            provider
-            or ProviderFactory.create()
-        )
+        self._provider = provider or ProviderFactory.create()
 
         logger.info(
             "MarketDataService initialized using '{}'.",
