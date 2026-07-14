@@ -1,0 +1,15 @@
+2026-07-10 01:09:14.761 | INFO     | __main__:<module>:3 - Institutional Terminal Started
+2026-07-10 12:22:51.771 | INFO     | utils.logger:<module>:33 - Logger initialized.
+2026-07-10 12:22:52.149 | INFO     | app:startup:17 - Starting Institutional Investing Terminal...
+2026-07-10 12:22:52.149 | INFO     | database.init_db:initialize_database:28 - Creating database schema...
+2026-07-10 12:22:52.165 | INFO     | database.init_db:initialize_database:32 - Database initialized successfully.
+2026-07-10 12:22:52.250 | INFO     | database.seed:seed_database:62 - Database seed completed.
+2026-07-10 12:22:52.253 | SUCCESS  | app:startup:25 - Application initialized successfully.
+2026-07-10 14:27:43.572 | INFO     | utils.logger:<module>:33 - Logger initialized.
+2026-07-10 15:58:33.442 | INFO     | utils.logger:<module>:33 - Logger initialized.
+2026-07-10 16:23:08.408 | INFO     | utils.logger:<module>:33 - Logger initialized.
+2026-07-10 16:31:40.470 | INFO     | services.stock_service:create_stock:88 - Created stock 'RELIANCE'.
+2026-07-10 16:37:01.645 | INFO     | services.stock_service:create_stock:88 - Created stock 'ABC'.
+2026-07-10 16:37:09.072 | INFO     | services.stock_service:delete_stock:227 - Deleted stock 'ABC'.
+2026-07-10 16:54:51.437 | INFO     | utils.logger:<module>:33 - Logger initialized.
+2026-07-10 16:57:39.637 | INFO     | services.price_service:insert_price:123 - Inserted candle for stock 2.
